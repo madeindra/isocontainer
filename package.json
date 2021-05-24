@@ -1,0 +1,17 @@
+{
+  "name": "isocontainer",
+  "version": "0.0.1",
+  "description": "Container size & type validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ISO6346",
+    "cargo",
+    "container",
+    "validation"
+  ],
+  "author": "Made Indra",
+  "license": "MIT"
+}
