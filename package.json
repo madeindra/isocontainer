@@ -1,6 +1,6 @@
 {
   "name": "isocontainer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Container size & type validator",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,13 @@
     "validation"
   ],
   "author": "Made Indra",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madeindra/isocontainer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/madeindra/isocontainer/issues"
+  },
+  "homepage": "https://github.com/madeindra/isocontainer#readme"
 }
