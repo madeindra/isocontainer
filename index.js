@@ -3,46 +3,50 @@
 const Sizes = require('./data/sizes.json');
 const Types = require('./data/types.json');
 
-class Container {
-  constructor(code) {
-    this.code = code;
-  }
+const isValid = (code) => {
+  return code.length === 4;
+};
 
-  isValid(){
-    return this.code.length === 4;
-  }
+const getLengthInMetrics = (code) => {
+  return Sizes.metric.length[code[0]]
+};
 
-  getLengthInMetrics(){
-    return Sizes.metric.length[this.code[0]]
-  }
+const getLengthInImperial = (code) => {
+  return Sizes.imperial.length[code[0]]
+};
 
-  getLengthInImperial(){
-    return Sizes.imperial.length[this.code[0]]
-  }
+const getHeightInMetrics = (code) => {
+  return Sizes.metric.height[code[1]]
+};
 
-  getHeightInMetrics(){
-    return Sizes.metric.height[this.code[1]]
-  }
+const getHeightInImperial = (code) => {
+  return Sizes.imperial.height[code[1]]
+};
 
-  getHeightInImperial(){
-    return Sizes.imperial.height[this.code[1]]
-  }
+const getWidthInMetrics = (code) => {
+  return Sizes.metric.width[code[1]]
+};
 
-  getWidthInMetrics(){
-    return Sizes.metric.width[this.code[1]]
-  }
+const getWidthInImperial = (code) => {
+  return Sizes.imperial.width[code[1]]
+};
 
-  getWidthInImperial(){
-    return Sizes.imperial.width[this.code[1]]
-  }
+const getDesignation = (code) => {
+  return Types.designation[code[2]];
+};
 
-  getDesignation(){
-    return Types.designation[this.code[2]];
-  }
-  
-  getType(){
-    return Types.type[this.code.substring(2, 4)];
-  }
-}
+const getType = (code) => {
+  return Types.type[code.substring(2, 4)];
+};
 
-module.exports = Container;
+module.exports = {
+  isValid,
+  getLengthInMetrics,
+  getLengthInImperial,
+  getHeightInMetrics,
+  getHeightInImperial,
+  getWidthInMetrics,
+  getWidthInImperial,
+  getDesignation,
+  getType,
+};

@@ -8,18 +8,18 @@ npm install isocontainer
 
 ## Example
 ```
-const IsoContainter = require ('isocontainer');
+const isocontainter = require ('isocontainer');
 
-const myCode = new IsoContainter('40G1');
+const myContainer = '40G1';
 
-myCode.isValid(); // true
-myCode.getLengthInMetrics(); // 12192 mm
-myCode.getLengthInImperial(); // 40 ft
-myCode.getHeightInMetrics(); // 2438 mm
-myCode.getHeightInImperial(); // 8 ft
-myCode.getWidthInMetrics(); // 2438mm
-myCode.getWidthInImperial(); // 8 ft
-myCode.getDesignation(); // General Purpose Container without Ventilation
-myCode.getType(); // Passive vents at upper part of cargo space
+isocontainter.isValid(myContainer); // true
+isocontainter.getLengthInMetrics(myContainer); // 12192 mm
+isocontainter.getLengthInImperial(myContainer); // 40 ft
+isocontainter.getHeightInMetrics(myContainer); // 2438 mm
+isocontainter.getHeightInImperial(myContainer); // 8 ft
+isocontainter.getWidthInMetrics(myContainer); // 2438 mm
+isocontainter.getWidthInImperial(myContainer); // 8 ft
+isocontainter.getDesignation(myContainer); // General Purpose Container without Ventilation
+isocontainter.getType(myContainer); // Passive vents at upper part of cargo space
 ```
 
