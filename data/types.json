@@ -1,17 +1,34 @@
 {
+  
   "designation": {
-    "G": "General Purpose Container without Ventilation",
-    "T": "Tank Container",
-    "V": "General Purpose Container with Ventilation",
-    "B": "Dry Bulk Container",
-    "S": "Named Cargo Container",
-    "R": "Thermal Container",
-    "H": "Thermal Container",
-    "U": "Open-Top Container",
-    "P": "Platform (Container)",
-    "K": "Pressurized Tank Container",
-    "N": "Pressurized and Non-Pressurized Tank Container (Dry)",
-    "A": "Air/Surface container"
+    "plain": {
+      "G": "General Purpose Container without Ventilation",
+      "T": "Tank Container",
+      "V": "General Purpose Container with Ventilation",
+      "B": "Dry Bulk Container",
+      "S": "Named Cargo Container",
+      "R": "Thermal Container",
+      "H": "Thermal Container",
+      "U": "Open-Top Container",
+      "P": "Platform (Container)",
+      "K": "Pressurized Tank Container",
+      "N": "Pressurized and Non-Pressurized Tank Container (Dry)",
+      "A": "Air/Surface Container"
+    },
+    "simplified": {
+      "G": "General Purpose",
+      "T": "Tank",
+      "V": "General Purpose with Ventilation",
+      "B": "Dry Bulk",
+      "S": "Named Cargo",
+      "R": "Thermal",
+      "H": "Thermal",
+      "U": "Open-Top",
+      "P": "Platform",
+      "K": "Pressurized Tank",
+      "N": "Pressurized/Non-Pressurized Tank",
+      "A": "Air/Surface"
+    }
   },
   "type": {
     "G0": "Openings at one or both ends",

@@ -32,7 +32,11 @@ const getWidthInImperial = (code) => {
 };
 
 const getDesignation = (code) => {
-  return Types.designation[code[2]];
+  return Types.designation.plain[code[2]];
+};
+
+const getSimpleDesignation = (code) => {
+  return Types.designation.simplified[code[2]];
 };
 
 const getType = (code) => {
@@ -48,5 +52,6 @@ module.exports = {
   getWidthInMetrics,
   getWidthInImperial,
   getDesignation,
+  getSimpleDesignation,
   getType,
 };
