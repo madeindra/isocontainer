@@ -2,6 +2,16 @@
   
   "designation": {
     "plain": {
+      "0": "General Purpose Container without Ventilation",
+      "1": "General Purpose Container with Ventilation",
+      "2": "Thermal Container",
+      "3": "Thermal Container",
+      "4": "Thermal Container",
+      "5": "Open-Top Container",
+      "6": "Platform (Container)",
+      "7": "Tank Container",
+      "8": "Dry Bulk Container",
+      "9": "Air/Surface Container",
       "G": "General Purpose Container without Ventilation",
       "T": "Tank Container",
       "V": "General Purpose Container with Ventilation",
@@ -16,6 +26,16 @@
       "A": "Air/Surface Container"
     },
     "simplified": {
+      "0": "General Purpose",
+      "1": "General Purpose with Ventilation",
+      "2": "Thermal",
+      "3": "Thermal",
+      "4": "Thermal",
+      "5": "Open-Top",
+      "6": "Platform",
+      "7": "Tank",
+      "8": "Dry Bulk",
+      "9": "Air/Surface",
       "G": "General Purpose",
       "T": "Tank",
       "V": "General Purpose with Ventilation",
